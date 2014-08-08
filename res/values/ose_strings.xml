@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-     Copyright (C) 2013 SlimRoms Project
+     Copyright (C) 2013 OSE Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -74,13 +74,11 @@
 
     <!-- Call UI in background -->
     <string name="bg_incall">Incoming call in background</string>
-    <string name="bg_incall_summary">Keep incoming call UI in background when screen is on, show notification and play ringtone only.</string>
-    <string name="bg_incall_as_heads_up">Show as heads up</string>
-    <string name="bg_incall_as_heads_up_summary">Show incoming call in background notification as heads up.</string>
+    <string name="bg_incall_summary">Keep incoming call UI in background when screen is on, show notification and play ringtone only</string>
 
     <!-- Incall Glowpad transparency -->
     <string name="glow_bg_trans">Glowpad transparency</string>
-    <string name="glow_bg_trans_summary">Make glowpad background transparent during incoming call so entire contact picture is visible.</string>
+    <string name="glow_bg_trans_summary">Make glowpad background transparent during incoming call so entire contact picture is visible</string>
 
     <!-- Sprint MWI Quirk: Phantom message wait indicator workaround -->
     <string name="mwi_notification_title">Message wait indicator</string>
@@ -154,31 +152,6 @@
     <string name="choose_people_lookup_provider_title">Choose people lookup provider</string>
     <string name="choose_reverse_lookup_provider_title">Choose reverse lookup provider</string>
 
-    <!-- Sim contacts management -->
-    <string name="exportContacts">Exporting contacts to SIM card\u2026</string>
-    <string name="ContactScreen">Add/Edit SIM Contact</string>
-    <string name="ExportContactScreen">Export phone contacts to sim </string>
-    <string name="addSimEntries">Add SIM Contact</string>
-    <string name="deleteAllSimEntries">Delete All SIM Contacts</string>
-    <string name="deleteSimContacts">Deleting SIM contacts</string>
-    <string name="editContact">Edit</string>
-    <string name="sendSms">Send SMS</string>
-    <string name="delete">Delete</string>
-    <string name="dial">Dial</string>
-    <string name="enterName">Enter Name:</string>
-    <string name="enterNumber">Enter Phone Number:</string>
-    <string name="contactAddSuccess">Succesfully added contact to SIM </string>
-    <string name="contactAddFailed">Failed to add contact to SIM !!!</string>
-    <string name="contactUpdateSuccess">Succesfully updated contact in SIM </string>
-    <string name="contactUpdateFailed">Failed to update contact in SIM !!!</string>
-    <string name="contactdeleteSuccess">Succesfully deleted contact from SIM </string>
-    <string name="contactdeleteFailed">Failed to delete contact from SIM !!!</string>
-    <string name="allContactdeleteSuccess">Succesfully deleted all contacts from SIM </string>
-    <string name="allContactdeleteFailed">Failed to delete all contacts from SIM !!!</string>
-    <string name="exportAllcontatsSuccess">Succesfully exported all contacts to SIM </string>
-    <string name="exportAllcontatsFailed">Failed to export all contacts to SIM !!!</string>
-    <string name="cursorError">Cursor is not having proper data !!! </string>
-
     <!-- Mobile network settings, preferred network mode -->
     <string name="preferred_network_mode_td_scdma_lte_cdma_evdo_gsm_wcdma" translatable="false">TD-SCDMA/LTE/CDMA/EvDo/GSM/WCDMA</string>
     <string name="preferred_network_mode_td_scdma_cdma_evdo_gsm_wcdma" translatable="false">TD-SCDMA/CDMA/EvDo/GSM/WCDMA</string>
@@ -204,15 +177,38 @@
     <string name="preferred_network_mode_gsm_only">GSM only</string>
     <string name="preferred_network_mode_gsm_wcdma_preferred">GSM/WCDMA preferred</string>
 
-    <!-- TD-SCDMA uses a variation of the GSM combos -->
-    <string-array name="enabled_networks_tdscdma_values" translatable="false">
-        <item>"20"</item>
-        <item>"18"</item>
-        <item>"1"</item>
-    </string-array>
-    <string-array name="enabled_networks_tdscdma_except_lte_values" translatable="false">
-        <item>"18"</item>
-        <item>"1"</item>
-    </string-array>
+    <!-- Sim contacts management -->
+    <string name="exportContacts">Exporting contacts to SIM card\u2026</string>
+    <string name="ContactScreen">Add/Edit SIM Contact</string>
+    <string name="ExportContactScreen">Export phone contacts to sim </string>
+    <string name="addSimEntries">Add SIM Contact</string>
+    <string name="deleteAllSimEntries">Delete All SIM Contacts</string>
+    <string name="deleteSimContacts">Deleting SIM contacts</string>
+    <string name="editContact">Edit</string>
+    <string name="sendSms">Send SMS</string>
+    <string name="delete">Delete</string>
+    <string name="dial">Dial</string>
+    <string name="enterName">Enter Name:</string>
+    <string name="enterNumber">Enter Phone Number:</string>
+    <string name="contactAddSuccess">Succesfully added contact to SIM </string>
+    <string name="contactAddFailed">Failed to add contact to SIM !!!</string>
+    <string name="contactUpdateSuccess">Succesfully updated contact in SIM </string>
+    <string name="contactUpdateFailed">Failed to update contact in SIM !!!</string>
+    <string name="contactdeleteSuccess">Succesfully deleted contact from SIM </string>
+    <string name="contactdeleteFailed">Failed to delete contact from SIM !!!</string>
+    <string name="allContactdeleteSuccess">Succesfully deleted all contacts from SIM </string>
+    <string name="allContactdeleteFailed">Failed to delete all contacts from SIM !!!</string>
+    <string name="exportAllcontatsSuccess">Succesfully exported all contacts to SIM </string>
+    <string name="exportAllcontatsFailed">Failed to export all contacts to SIM !!!</string>
+    <string name="cursorError">Cursor is not having proper data !!! </string>
+
+    <!-- Detailed InCall Info -->
+    <string name="detailed_incall_info_title">Detailed incall information</string>
+    <string name="detailed_incall_info_summary">Display additional information (organization, position, city and nickname) on full incall screen.</string>
+
+    <!-- Incoming call style -->
+    <string name="incoming_call_style_title">Incoming call screen style</string>
+    <string name="incoming_call_style_classic">Classic</string>
+    <string name="incoming_call_style_fullscreen_photo">Fullscreen caller photo</string>
 
 </resources>
